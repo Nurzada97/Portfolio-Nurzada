@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .print-area {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .print-area .header {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px lightsteelblue;
+    cursor: pointer;
+    transition: 5s;
+    user-select: none;
+  }
+  .header-text {
+    color: white;
+    width: 60%;
+    margin-left: auto;
+  }
+  .header-text h1 {
+    font-size: 50px;
+    font-weight: normal;
+  }
+  .header-text p {
+    font-size: 30px;
+    color: lightblue;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-area {
+    width: 30%;
+    background-color: lightgrey;
+    padding-bottom: 20px;
+  }
+  .left-area .contact {
+    margin-top: 130px;
+    padding: 0 20px;
+  }
+  .contact h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+  }
+  .contact h5 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .contact a {
+    font-size: 18px;
+  }
+  .skills {
+    margin-top: 30px;
+  }
+  .skills h2 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .bars {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 10px;
+    padding: 0 30px;
+  }
+  .bars .bar p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .follow h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .follow h4 {
+    font-size: 23px;
+    margin: 10px 0;
+  }
+  .follow p {
+    font-size: 25px;
+    color: dimgrey;
+  }
+  
+  .right-area {
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(245, 244, 244);
+  }
+  .right-area h1 {
+    font-size: 35px;
+    font-weight: normal;
+  }
+  .right-area p {
+    padding-left: 70px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+  }
+  .education h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 30px;
+  }
+  .education h4 {
+    padding-left: 70px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 22px;
+    color: gray;
+    margin-top: 10px;
+  }
+  .education p {
+    text-align: right;
+    font-size: 22px;
+    color: rgb(25, 24, 24);
+  
+    margin-bottom: 30px;
+  }
+  .languages {
+    padding-left: 70px;
+    text-align: left;
+    word-break: break-all;
+    font-size: 17px;
+  
+    margin-top: 10px;
+  }
+  .languages h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 30px;
+  }
+  .languages li {
+    word-break: break-all;
+    font-size: 27px;
+    color: gray;
+    margin-top: 10px;
+  
+    text-align: left;
+  }
+  .HOBBY {
+    padding-left: 70px;
+    text-align: left;
+    word-break: break-all;
+    font-size: 17px;
+  
+    margin-top: 10px;
+  }
+  .HOBBY h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 30px;
+  }
+  .HOBBY li {
+    word-break: break-all;
+    font-size: 27px;
+    color: gray;
+    margin-top: 10px;
+  
+    text-align: left;
+  }
+  .print-area2 {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .print-area2 .footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .footer a {
+    color: white;
+    width: 60%;
+    margin: 0;
+    text-align: right;
+  }
+  
